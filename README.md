@@ -15,7 +15,6 @@ An asynchronous FastAPI microservice that extracts audio from uploaded video fil
 ```text
 ai_dubber_p1/
 ├── .gitignore
-├── README.md
 ├── requirements.txt
 ├── main.py
 └── core.py
