@@ -1,7 +1,7 @@
 # Project-1-Video-Transcriber-API
 An asynchronous FastAPI microservice that extracts audio from uploaded videos, generates precision timestamped transcripts using OpenAI's Whisper model (faster-whisper), and automatically exports .srt subtitle files.
 
-# AI Dubbing Pipeline - Phase 1: Video Audio Extractor & Transcriber
+# Phase 1: Video Audio Extractor & Transcriber
 
 An asynchronous FastAPI microservice that extracts audio from uploaded video files and generates timestamped transcripts alongside `.srt` subtitle files using `faster-whisper` and `FFmpeg`.
 
