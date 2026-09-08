@@ -6,7 +6,7 @@ import os
 # Import the functions you just tested in core.py
 from core import extract_audio, transcribe_audio, generate_srt
 
-app = FastAPI(title="AI Dubbing Pipeline - Phase 1")
+app = FastAPI(title="Phase 1- Video Transcript API")
 
 @app.post("/transcribe")
 async def process_video(file: UploadFile = File(...)):
